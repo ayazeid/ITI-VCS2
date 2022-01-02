@@ -1,0 +1,12 @@
+Note:
+
+to remove dev branch
+locally -> git branch -d dev
+remotely -> git push origin :dev
+
+to list tags
+git tag --list
+
+to remove tag
+locally -> git tag -d <tagname>
+remotely -> git push origin --delete <tagname>
